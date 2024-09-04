@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
             BodyMassIndexTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background // Updated for Material 3
+                    color = MaterialTheme.colorScheme.background 
                 ) {
                     Bmi()
                 }
@@ -58,7 +58,7 @@ fun Bmi() {
         Text(
             text = stringResource(R.string.body_mass_index),
             fontSize = 24.sp,
-            color = MaterialTheme.colorScheme.primary, // Updated for Material 3
+            color = MaterialTheme.colorScheme.primary, 
             textAlign = TextAlign.Center,
             modifier = Modifier
                 .fillMaxWidth()
